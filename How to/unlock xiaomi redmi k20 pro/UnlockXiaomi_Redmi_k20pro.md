@@ -55,7 +55,7 @@
 3. Unzip both the files.
 4. Copy the recovery.img from orangefox zip into platform_tools folder (extracted folder).  
 
-  ![alt text](orangefox_1.png)
+    ![alt text](orangefox_1.png)
 
 5. Connect your phone to the PC and start FASTBOOT mode (holding down volume down and powerbutton)
 
@@ -78,7 +78,7 @@
 
 11. Copy the OrangeFox zip you downloaded (not extracted) into the phone internal storage.  
 
-  ![alt text](orangefox_3.png)
+    ![alt text](orangefox_3.png)
 
 12. Wait or change tabs and back to File tab, click on the zip file you moved into the phone.
 
@@ -113,12 +113,14 @@
 
     <img src="magisk_1.png" width="250" style="padding-bottom:20px;"/>
 
-    Now you have finally rooted your phone. Or maybe not? Lets check the root status.
+    Now you have finally rooted your phone. Or maybe not? Lets check the root status.  
 
-8. Go to Play Store and install Root Checker.
+8. Go to Play Store and install Root Checker.  
+
     <img src="magisk_2.png" width="250" style="padding-bottom:20px;"/>
 
-9. Run the app and press Verify root. There will be a popup prompting for superuser rights. Give it the rights.
+9. Run the app and press Verify root. There will be a popup prompting for superuser rights. Give it the rights.  
+
     <img src="magisk_3.png" width="250" style="padding-bottom:20px;"/>
     <img src="magisk_4.png" width="250" style="padding-bottom:20px;"/>
 

@@ -1,5 +1,5 @@
 
-## Preparation on phone for unlock
+## Preparation on phone for unlock (10 minutes)
 
 1. Go to Settings > Mi Account, and note down your mi account number and password
     Mi account number consist of a string of digits
@@ -14,7 +14,7 @@ Now you phone is ready to be unlocked.
 
 *But your PC is probably not yet.*
 
-## Preparation on PC for unlock
+## Preparation on PC for unlock (might take weeks for finish)
 1. Go to https://en.miui.com/unlock/download_en.html and download the mi unlock tool. "miflash_unlock-en-3.5.910.35" version is proved working 2019/11/15
 2. Unzip the file and `miflash_unlock.exe`
 3. Login with your mi account number and password
@@ -52,13 +52,93 @@ Now you phone is ready to be unlocked.
 10. Setup the phone by following the instructions on screen.
 
 
+## Install OrangeFox (a version of TWRP) (10 minutes)
+1. Download OrangeFox from https://files.orangefox.tech/OrangeFox-Stable/raphael/OrangeFox-R10.0-3-Stable-raphael.zip. You can possible pick other versions of Raphael, but 10.0.3 is proven working.
+2. Download platform_tools from google https://dl.google.com/android/repository/platform-tools_r29.0.5-windows.zip
+3. Unzip both the files.
+4. Copy the recovery.img from orangefox zip into platform_tools folder (extracted folder).
+
+  ![alt text](orangefox_1.png)
+
+5. Connect your phone to the PC and start FASTBOOT mode (holding down volume down and powerbutton)
+
+6. Open Command Prompt (path must be inside platform_tools) and run `fastboot devices` to check if the phone is correctly connected to the PC. If you phone is properly connected, it will return `<deviceID> fastboot`. Else if your phone is NOT properly connected, it will show nothing.
+
+7. Run `fastboot flash recovery recovery.img`. In about 3 seconds, your phone will now have TWRP installed.
+
+  If you have done it correctly, your CMD window should look like this.
+
+  ![alt text](orangefox_2.png)
+
+  Now you will need to run TWRP.
+
+8. While the phone is still showing "FASTBOOT", hold down volume up and powerbutton until the phone reboots into OrangeFox.
+
+9. Follow orangefox instructions.
+
+  If it prompts you a password, you will have to type you pattern lock, pin or password you sat for your device. The password you use to unlock your device every you turn on the screen.
 
 
-# Now install Magisk Manager
+10. Swipe the "Swipe to allow Modifications"
 
-1.
+11. Copy the OrangeFox zip you downloaded (not extracted) into the phone internal memory
 
-Download Magiskv19.3.zip, and place it into phone
+  ![alt text](orangefox_3.png)
+
+12. Wait or change tabs and back to File tab, click on the zip file you moved into the phone.
+
+13. Swipe to install.
+
+14. After waiting, you are back to the OrangeFox. Navigate to `Menu > Manage Partitions > Data`, and press `Format Data` button.
+
+15. Confirm by typing "yes" manually.
+
+16. Wait, then press `Reboot System` button.
+
+  #### We have now installed OrangeFox TWRP and it is accessible at `holding down Volume Up + Power button`.
+
+
+## Enable Google Services and Google Play Services
+1. Go to the app called App Store, start it and accept terms of service.
+2. Search for "google play store" and press Update button. This will install it on the phone.
+3. Then press the "Open" button to open Play Store app.
+4. Sign in to your personal Google account.
+5. Now install other Google Apps you want, such as Maps, Gmail, Chrome, Keep and Calendar.
+
+
+
+## Now install Magisk Manager (3 minutes)
+1. Download Magiskv19.3.zip, and place it into phone's internal storage
+2. Run TWRP by `holding down Volume Up + Power button`.
+3. In the File tab, find Magiskv19.3.zip and press on it.
+4. Swipe to install.
+5. Press `Reboot System` button.
+6. Now you should find an app called `Magisk Manager` among your apps.
+7. Open the app and **DO NOT** update any of the modules. You screen should look like this.
+
+  <img src="magisk_1.png" width="250" style="padding-bottom:20px;"/>
+
+  Now you have finally rooted your phone. Or maybe not? Lets check the root status.
+
+8. Go to Play Store and install Root Checker.
+  <img src="magisk_2.png" width="250" style="padding-bottom:20px;"/>
+
+9. Run the app and press Verify root. There will be a popup prompting for superuser rights. Give it the rights.
+  <img src="magisk_3.png" width="250" style="padding-bottom:20px;"/>
+  <img src="magisk_4.png" width="250" style="padding-bottom:20px;"/>
+
+  #### We have now successfully verified that we have correctly rooted a Redmi K20 Pro.
+
+
+
+## Enable Google Locatino History with Magisk
+
+
+
+
+
+
+
 
 
 # Sources

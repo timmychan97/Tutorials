@@ -131,16 +131,22 @@
 ## Enable Google Location History with Magisk
 In China, Location Reporting and Location History are not available. These services can be useful for Google Maps Location Sharing, and Google Fit location history reports. Enabling this feature can let you watch your own timeline of collected GPS data. Follow this guide to enable this for a Chinese phone like Xiaomi Redmi K20 Pro.
 
+1. Download the Magisk module from https://github.com/fei-ke/unlock-cn-gms/releases/download/v2/unlock-cn-gms-v2.zip. This is an addon to unlock location history.
+2. Put the file into internal storage.
+3. Run Magisk Manager. Press the "Hamburger button" on the upper left corner and select `Modules`.  
+
+    <img src="location_1.png" width="250" style="padding-bottom:20px;"/>  
+
+4. Press "+" and location your `unlock-cn-gms-v2.zip`. It will reboot.
+5. After it is done run Google Maps and select "Your Timeline" on the side menu and check if it works. It might prompt you to turn on location history service.
+6. Try selecting "Location sharing" from the side menu, and check if it is not giving you an error.  
+
+    <img src="location_2.png" width="250" style="padding-bottom:20px;"/>  
+
+    In this case, you will have to press the fix button and go back to "Your Timeline" and turn on the service.
 
 
 
-
-
-
-
-
-
-
-# Sources
- - https://www.technobuzz.net/how-to-install-adb-and-fastboot-on-windows/
- - https://www.youtube.com/watch?v=DVbpYLDcy0Y remember to look at video description
+## Sources
+ - https://xiaomi.eu/community/threads/location-history-when-will-this-be-fixed-resolved.44455/
+ - https://www.youtube.com/watch?v=DVbpYLDcy0Y

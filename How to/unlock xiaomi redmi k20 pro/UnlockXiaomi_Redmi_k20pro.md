@@ -129,6 +129,9 @@
 
 
 ## Enable Google Location History with Magisk
+In China, Location Reporting and Location History are not available. These services can be useful for Google Maps Location Sharing, and Google Fit location history reports. Enabling this feature can let you watch your own timeline of collected GPS data. Follow this guide to enable this for a Chinese phone like Xiaomi Redmi K20 Pro.
+
+
 
 
 
@@ -139,5 +142,5 @@
 
 
 # Sources
-https://www.technobuzz.net/how-to-install-adb-and-fastboot-on-windows/
-https://www.youtube.com/watch?v=DVbpYLDcy0Y remember to look at video description
+ - https://www.technobuzz.net/how-to-install-adb-and-fastboot-on-windows/
+ - https://www.youtube.com/watch?v=DVbpYLDcy0Y remember to look at video description

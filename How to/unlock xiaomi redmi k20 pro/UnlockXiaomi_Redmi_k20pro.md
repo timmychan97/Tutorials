@@ -128,7 +128,7 @@
 
 
 
-## Enable Google Locatino History with Magisk
+## Enable Google Location History with Magisk
 
 
 

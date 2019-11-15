@@ -21,29 +21,31 @@ Now you phone is ready to be unlocked.
 4. Connect your phone to the PC and start FASTBOOT mode (holding down volume down and powerbutton)
 
 5. You should see the following image.
-![alt text](mi_unlock_1.png)
+  ![alt text](mi_unlock_1.png)
 
 6. Press "Unlock" and there will be a countdown for 5 seconds. Press "Unlock anyway".
 
-![alt text](mi_unlock_2.png)
+  ![alt text](mi_unlock_2.png)
 
 7. Do it again for each popup.
 
-![alt text](mi_unlock_3.png)
+  ![alt text](mi_unlock_3.png)
 
-
-If you are doing this for the first time, you will encounter a popup telling you to wait for 168 or 360 hours (or more) before attempting to unlock the phone. That's the policy of Xiaomi restricting its users from unlocking their phone to stop criminals from unlocking stolen phones. There are no other way around, you will just have to wait for 1 or 2 weeks and retry.
+  If you are doing this for the first time, you will encounter a popup telling you to wait for 168 or 360 hours (or more) before attempting to unlock the phone. That's the policy of Xiaomi restricting its users from unlocking their phone to stop criminals from unlocking stolen phones. There are no other way around, you will just have to wait for 1 or 2 weeks and retry.
 
 8. The unlocking process starts.
-![alt text](mi_unlock_4.png)
 
-While the PC is showing the progress.
-The phone will show a percentage process and should be done in like 10 seconds.
-Then it reboots, spending like 1-2 minutes to reboot.
+  ![alt text](mi_unlock_4.png)
 
-In meanwhile, the PC shows
-![alt text](mi_unlock_5.png)
-There is NO need to press "Reboot Phone".
+  While the PC is showing the progress.
+  The phone will show a percentage process and should be done in like 10 seconds.
+  Then it reboots, spending like 1-2 minutes to reboot.
+
+  In meanwhile, the PC shows
+
+  ![alt text](mi_unlock_5.png)
+
+  There is NO need to press "Reboot Phone".
 
 9. Exit Mi Unlock application.
 

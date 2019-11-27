@@ -13,7 +13,7 @@
 
     *But your PC is probably not yet.*
 
-## Preparation on PC for unlock (might take weeks for finish)
+## Preparation on PC for unlock (might take weeks to finish)
 1. Go to https://en.miui.com/unlock/download_en.html and download the mi unlock tool. "miflash_unlock-en-3.5.910.35" version is proved working 2019/11/15
 2. Unzip the file and `miflash_unlock.exe`
 3. Login with your mi account number and password
@@ -29,7 +29,7 @@
 7. Do it again for each popup.  
     ![alt text](mi_unlock_3.png)  
 
-    If you are doing this for the first time, you will encounter a popup telling you to wait for 168 or 360 hours (or more) before attempting to unlock the phone. That's the policy of Xiaomi restricting its users from unlocking their phone to stop criminals from unlocking stolen phones. There are no other way around, you will just have to wait for 1 or 2 weeks and retry.
+    If you are doing this for the first time, you will encounter a popup telling you to wait for 168 or 360 hours (or more) before attempting to unlock the phone. That's the policy of Xiaomi restricting its users from unlocking their phone, preventing criminals from unlocking stolen phones. There are no other way around, you will just have to wait for 1 or 2 weeks and retry.
 
 8. The unlocking process starts.  
     ![alt text](mi_unlock_4.png)

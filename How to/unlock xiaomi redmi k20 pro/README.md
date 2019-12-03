@@ -2,7 +2,7 @@
 
 By following this guide, you will unlock the bootloader and the following features:
  - TWRP installed, which is a recovery mode.
- - Magisk Manager intalled and is undetectable, which can do deep system tweaks.
+ - Magisk Manager installed and is undetectable, which can do deep system tweaks.
  - EdXposed installed, which can do software and OS tweaks.
  - Enable Google Maps Location History and Location Sharing.
  - Redirect app links to Google Play Store instead of Mi App Market.
@@ -12,39 +12,39 @@ By following this guide, you will unlock the bootloader and the following featur
 
 ## Preparation on phone for unlock (10 minutes)
 
-1. Go to Settings > Mi Account, and note down your mi account number and password
-    Mi account number consist of a string of digits
-    The password is your personal password sat by you
+1. Go to Settings > Mi Account, and note down your Mi Account number and password. Mi Account number consist of a string of digits and the password is your personal password sat by you.
 2. Go to Settings > Additional Settings > Developer options (google how to enable developer settings on redmi)
-3. Enable OEM unlocking
-4. Navigate into "Mi Unlock status" and follow the steps
-5. Go to Settings > Mi Account > Mi cloud, and turn on "Find device"
+3. Enable OEM unlocking.
+4. Navigate into "Mi Unlock status" and follow the on-screen instructions.
+5. Go to Settings > Mi Account > Mi Cloud, and turn on "Find device".
 
     Now you phone is ready to be unlocked.
 
     *But your PC is probably not yet.*
 
 ## Preparation on PC for unlock (might take weeks to finish)
-1. Go to https://en.miui.com/unlock/download_en.html and download the mi unlock tool. "miflash_unlock-en-3.5.910.35" version is proved working 2019/11/15
-2. Unzip the file and `miflash_unlock.exe`
-3. Login with your mi account number and password
+1. Go to https://en.miui.com/unlock/download_en.html and download the mi unlock tool. "miflash_unlock-en-3.5.910.35" version is proved working 2019/11/15.
+2. Unzip the file and `miflash_unlock.exe`.
+3. Login with your mi account number and password.
 4. Connect your phone to the PC and start FASTBOOT mode (holding down volume down and powerbutton)
 
 5. You should see the following image.  
 
-    <img src="images/mi_unlock_1.png" style="max-width:500px; padding-bottom:20px;"/>  
+    <img src="images/mi_unlock_1.png" width="500" style="padding-bottom:20px;"/>  
 
 6. Press "Unlock" and there will be a countdown for 5 seconds. Press "Unlock anyway".  
 
-    <img src="images/mi_unlock_2.png" style="max-width:300px; padding-bottom:20px;"/>  
+    <img src="images/mi_unlock_2.png"  width="300" style="padding-bottom:20px;"/>  
 
 7. Do it again for each popup.  
-    <img src="images/mi_unlock_3.png" style="max-width:300px; padding-bottom:20px;"/>  
+
+    <img src="images/mi_unlock_3.png" width="300" style="padding-bottom:20px;"/>  
 
     If you are doing this for the first time, you will encounter a popup telling you to wait for 168 or 360 hours (or more) before attempting to unlock the phone. That's the policy of Xiaomi restricting its users from unlocking their phone, preventing criminals from unlocking stolen phones. There are no other way around, you will just have to wait for 1 or 2 weeks and retry.
 
 8. The unlocking process starts.  
-    <img src="images/mi_unlock_4.png" style="max-width:500px; padding-bottom:20px;"/>  
+
+    <img src="images/mi_unlock_4.png" width="500" style="padding-bottom:20px;"/>  
 
     While the PC is showing the progress.  
 
@@ -52,7 +52,7 @@ By following this guide, you will unlock the bootloader and the following featur
     Then it reboots, spending like 1-2 minutes to reboot.  
     In meanwhile, the PC shows  
 
-    <img src="images/mi_unlock_5.png" style="max-width:500px; padding-bottom:20px;"/>  
+    <img src="images/mi_unlock_5.png" width="500" style="padding-bottom:20px;"/>  
 
     There is NO need to press "Reboot Phone".  
 

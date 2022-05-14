@@ -240,6 +240,20 @@ Other apps check __safe__ from Snapchat are listed below. These apps did not get
 
 ---
 
+## Update 2022.05.11
+
+Magisk Manager had gotten massive updates. The Magisk Hide feature no longer exist, and had been replaced with the new feature "DenyList". Press `Settings > Configure DenyList` and select those apps you want to hide root on.
+
+#### Google Pay
+In order to make Google Pay work you have to pass SafetyNet, and fix NFC problems.
+1. Install the module Universal SafetyNew Fix (v.2.2.1 by kdrag0n).
+2. Download "SafetyNet Test" from PlayStore, and make sure the phone **passes all 4 tests** (request, response signature, basic integrity, CTS profile)
+3. Open Settings app, Search for "NFC" and click on `NFC  More/NFC`. Click on `Default wallet` and change it to `HCE Wallet`.
+4. Now Google Pay should work on Lock Screen when the user wakes the screen. Google pay has a limit on the max pay amount before prompting the user to unlock the phone.
+
+
+
+---
 
 ## Sources
  - https://xiaomi.eu/community/threads/location-history-when-will-this-be-fixed-resolved.44455/
